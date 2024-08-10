@@ -14,7 +14,7 @@ public class Course {
     @JsonProperty("course_id")
     private Long course_id;
     @JsonProperty("course_name")
-    private String course_name;
+    private String courseName;
     private int price;
     @JsonProperty("instructor")
     private String instructor;
@@ -49,11 +49,11 @@ public class Course {
 	}
 
 	public String getCourseName() {
-		return course_name;
+		return courseName;
 	}
 
 	public void setCourseName(String courseName) {
-		this.course_name = courseName;
+		this.courseName = courseName;
 	}
 
 	public List<Feedback> getFeedbacks() {

@@ -26,6 +26,10 @@ public class CourseService {
 		return courseRepository.save(course);
 	}
 
+	public Course searchCoursesByName(String course_name) {
+        return courseRepository.findByCourseName(course_name);
+    }
+
 public Course updateCourse(Long id, Course updatedCourse) {
     Course existingCourse = courseRepository.findById(id).orElse(null);
     if (existingCourse != null) {
