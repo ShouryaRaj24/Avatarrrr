@@ -13,6 +13,9 @@ public class PaymentDetails extends BaseModel{
     private String orderId;
     private String paymentId;
     private String PaymentLink;
+    private String customerEmail;
+    private String customerName;
+
     @Enumerated(EnumType.STRING)
     private PaymentStatus status;
 }
