@@ -8,7 +8,7 @@ public class AvatarrrrApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AvatarrrrApplication.class, args);
-		System.out.println("hello");
+		System.out.println("Heyyyyyyyyyy");
 	}
 
 }
